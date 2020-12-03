@@ -1,0 +1,31 @@
+html{
+    background-color: rgb(3, 184, 3);
+}
+
+body{
+    background-color: black!important;
+}
+
+.container{
+    margin-left: 10%;
+    max-width: 80%;
+}
+
+.card{
+    float: left;
+    margin-right: 7%;
+}
+
+
+.cardParts{
+    margin-left: 40%;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.headText{
+    font-weight: 700!important;
+    text-align: center;
+    color:white;
+    background-color: black;
+}
