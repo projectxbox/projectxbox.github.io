@@ -1,5 +1,6 @@
 html{
     background-color: rgb(3, 184, 3);
+    color: white;
 }
 
 body{
@@ -13,7 +14,10 @@ body{
 
 .card{
     float: left;
-    margin-right: 7%;
+}
+
+.cardRow{
+    margin-right: 122px;
 }
 
 
@@ -28,4 +32,9 @@ body{
     text-align: center;
     color:white;
     background-color: black;
+}
+
+a{
+    color: rgb(3, 184, 3)!important;
+    text-decoration: none!important;
 }
