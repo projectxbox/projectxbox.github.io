@@ -1,10 +1,10 @@
-html{
-    background-color: rgb(3, 184, 3);
-    color: white;
-}
 
 body{
-    background-color: black!important;
+    background-color: rgb(3, 184, 3)!important;
+}
+
+head{
+    background-color: rgb(3, 184, 3)!important;
 }
 
 .container{
@@ -14,6 +14,8 @@ body{
 
 .card{
     float: left;
+    box-shadow: 5px 10px 8px black;
+    border: 2px solid rgba(0, 0, 0, 0.021)!important;
 }
 
 .cardRow{
@@ -32,9 +34,65 @@ body{
     text-align: center;
     color:white;
     background-color: black;
+    width: 100%!important;
 }
 
 a{
-    color: rgb(3, 184, 3)!important;
     text-decoration: none!important;
+}
+.titelText{
+    color: rgb(3, 184, 3)!important;
+}
+
+.uselessSpace{
+    height: 20px;
+}
+.jumbotron{
+    background-color: rgba(255, 255, 255, 0.685)!important;
+    border: 5px dashed black;
+
+}
+
+.display-4{
+    font-size: 35px!important;
+}
+
+.onderdelenDeel1{
+    /* max-width: 100%; */
+    /* float: left; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .onderdelenDeel1 {
+        display: none;
+    }
+  }
+
+/* Table */
+.onderdelenDeel1Text{
+    width: 48%;
+    margin-right: 2%;
+}
+
+.onderdelenDeel1Image{
+    width: 50%!important;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
 }
